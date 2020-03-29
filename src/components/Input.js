@@ -24,26 +24,24 @@ const InputForm = props => {
             <table>
                 <tbody>
                     <tr>
-                        <td>Name</td>
-                        <td>
-                            <input class="form-control" type="text" onChange={(e) => actionsForm.changeName(e.target.value)} />
-                        </td>
+   <p>Name</p> <div>
+ <input class="form-control" type="text" onChange={(e) => actionsForm.changeName(e.target.value)} />
+                        </div>
                     </tr>
                     <tr>
-                        <td>Weight</td>
-                        <td>
-                            <input class="form-control" type="number" onChange={(e) => actionsForm.changeWeight(e.target.value)} />
-                        </td>
+ <p>Weight</p><div>
+ <input class="form-control" type="number" onChange={(e) => actionsForm.changeWeight(e.target.value)} />
+                        </div>
+                       
                     </tr>
                     <tr>
-                        <td>Image</td>
-                        <td>
-                            <input class="form-control" type="text" onChange={(e) => actionsForm.changeImg(e.target.value)} /> <br />
-                        </td>
+   <p>Image</p><div>
+<input class="form-control" type="text" onChange={(e) => actionsForm.changeImg(e.target.value)} /> <br />
+                        </div>
                     </tr>
                     <tr>
-                        <td></td>
-                        <div>
+              //Button
+                       <div>
                             <button type="button" class="btn btn-danger"onClick={addBear}>Create</button>
                         </div>
                     </tr>
